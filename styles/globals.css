@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+*{
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: bold;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+#home
+
+
+{
+
+  /* ff 3.6+ */
+  background:-moz-linear-gradient(45deg, rgba(255, 235, 138, 1) 0%, rgba(255, 225, 225, 1) 50%, rgba(147, 201, 255, 1) 100%); 
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-linear-gradient(45deg, rgba(255, 235, 138, 1) 0%, rgba(255, 225, 225, 1) 50%, rgba(147, 201, 255, 1) 100%);
+
+  /* opera 11.10+ */
+  background:-o-linear-gradient(45deg, rgba(255, 235, 138, 1) 0%, rgba(255, 225, 225, 1) 50%, rgba(147, 201, 255, 1) 100%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93C9FF', endColorstr='#FFEB8A', GradientType=1 );
+
+  /* ie 10+ */
+  background:-ms-linear-gradient(45deg, rgba(255, 235, 138, 1) 0%, rgba(255, 225, 225, 1) 50%, rgba(147, 201, 255, 1) 100%);
+
+  /* global 94%+ browsers support */
+  background:linear-gradient(45deg, rgba(255, 235, 138, 1) 0%, rgba(255, 225, 225, 1) 50%, rgba(147, 201, 255, 1) 100%);
+
+}
